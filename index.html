@@ -3,179 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neo Fitness</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-LmIM3vLZ8Qb8TUOmV9m09Pc+vbeT+P+U9HoLe1qqgpkUN3faj+YuH3WwOa9vwsDx" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <title>Document</title>
 </head>
 <body>
-    <div class="container">
-      
+
+    <header class="header">
         <nav>
-            <div class="logo">Neo Fitness
-                <img src="pics/dmbells.png" width="50px" alt="">
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="#"><img src="pics/dmbells.png" alt="logo" />Neo Fitness</a>
             </div>
-           
-            
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                    <a href="#">Program</a>
-                    <a href="#">Plan</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Contact Us</a>
-                    <button>JOIN US</button>
-                    
-                </li>
-            </ul>
+            <div class="nav__menu__btn" id="menu-btn">
+              <span><i class="ri-menu-line"></i></span>
+            </div>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link"><a href="#class">Classes</a></li>
+            <li class="link"><a href="#price">Pricing</a></li>
+            <li class="link"><button class="btn">Contact Us</button></li>
+          </ul>
         </nav>
-
-
-        <div class="Home">
-            <div class="left">
-                <h1>Stay Fit</h1>
-                <H3>Once you see the result , it becomes an addiction</H3>
-                <p><i>"Fitness is not about being better than someone else.<br> It's about being better than you used to be.</i>"<br><br>If you constantly worry about your fitness <br>and you are willing to put in the  hardwork <br> you are in the right place</p>
-                <button>Join Now</button>
+        <div class="section__container header__container" id="home">
+          <div class="header__image">
+            <img src="pics/gymg.png" alt="header" />
+          </div>
+          <div class="header__content">
+            <h4>Build Your Body &</h4>
+            <h1 class="section__header">Shape Yourself!</h1>
+            <p>
+              If you constantly worry about your fitness and you are willing to put in the  hardwork  you are in the right place .
+            </p>
+            <div class="header__btn">
+              <button class="btn">Join Today</button>
             </div>
-            <img src="pics/gymg.png" alt="nothing loading.." >
+          </div>
         </div>
+    </header>
 
+    <div class="program">
+      <div class="head">
+          <h1>Our <span>Programs</span></h1>
+      </div>
+      <div class="ourprogram">
+          <div class="crd">
+              <img src="pics/dance.jpg" alt="" width="100px" >
+              
+              
+          </div>
+          <div class="crd">
+              <img src="pics/cardio.jpg" alt="" width="100px">
+              
+          </div>
+          <div class="crd">
+              <img src="pics/weightlift.jpg" alt="" width="100px" >
+              
+          </div>
+      </div>
 
-
-
-        <div class="program">
-            <div class="head">
-                <h1>Our <span>Programs</span></h1>
-            </div>
-            <div class="ourprogram">
-                <div class="crd">
-                    <img src="pics/dance.jpg" alt="" width="100px" >
-                    
-                    
-                </div>
-                <div class="crd">
-                    <img src="pics/cardio.jpg" alt="" width="100px">
-                    
-                </div>
-                <div class="crd">
-                    <img src="pics/weightlift.jpg" alt="" width="100px" >
-                    
-                </div>
-            </div>
-
-        </div>
-
-
-
-
-        <div class="plan">
-            <div class="head">
-                <h1>Our<span>Plans</span></h1>
-            </div>
-            <div class="ourplan">
-                <div class="card">
-                    
-                    <h3>Silver Package</h3>
-                    <p>kahe itna dimag lagaye</p>
-                    <p>kahe itna dimag lagaye</p>
-                    <p>kahe itna dimag lagaye</p>
-                    <p>kahe itna dimag lagaye</p>
-                    <p>kahe itna dimag lagaye</p>
-                    <p>kahe itna dimag lagaye</p>
-                    <p>kahe itna dimag lagaye</p>
-                    <button>Buy plan</button>
-                </div>
-                <div class="card">
-                    
-                    <h3>Gold Package</h3>
-                    <p>kahe itna dimag lagaye</p>
-                    <p>kahe itna dimag lagaye</p>
-                    <p>kahe itna dimag lagaye</p>
-                    <p>kahe itna dimag lagaye</p>
-                    <p>kahe itna dimag lagaye</p>
-                    <p>kahe itna dimag lagaye</p>
-                    <p>kahe itna dimag lagaye</p>
-                    <button>Buy plan</button>
-                </div>
-                <div class="card">
-                    
-                    <h3>Diamond Package</h3>
-                    <p>kahe itna dimag lagaye</p>
-                    <p>kahe itna dimag lagaye</p>
-                    <p>kahe itna dimag lagaye</p>
-                    <p>kahe itna dimag lagaye</p>
-                    <p>kahe itna dimag lagaye</p>
-                    <p>kahe itna dimag lagaye</p>
-                    <p>kahe itna dimag lagaye</p>
-                    <button>Buy plan</button>
-                </div>
-            </div>
-        </div>
-
-
-
-
-        <div class="contact">
-            <div class="head">
-                <h1>lets<span>bgein</span></h1>
-                <h2>contact<span>Us </span></h2>
-            </div>
-            <div class="contactpage">
-                <div class="contacttext">
-                    <h1>lets go</h1>
-                    <h2>start your journey now</h2>
-                </div>
-                <img src="pics/woman gym.webp" alt="" srcset="">
-            </div>
-            <div class="contactus">
-                <h1>Contact Us</h1>
-                <input type="text" placeholder="enter your name gandu" id="name">
-                <input type="text" placeholder="enter your number" id="number">
-                <button onclick="submit()">Submit</button>
-            </div>
-            
-
-        </div>
-
-
-
-        <div class="footer">
-            
-            <div class="footertext">
-                <h2>About Us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, id quae explicabo deserunt hic vel. Consequuntur recusandae accusantium, quam quo, beatae similique cumque voluptatem, laborum magni pariatur perferendis! Eligendi, optio.</p>
-               
-            </div>
-            <div class="footertext">
-                <h2>Plans</h2>
-                <p>transparent</p>
-                <p>account</p>
-                <p>valid</p>
-                <p>ends</p>
-                
-            </div>
-            <div class="footertext">
-                <h2>program</h2>
-                <p>dance </p>
-                <p>cardio</p>
-                <p>heaby</p>
-                <p>more</p>
-            
-            </div>
-            <div class="footertext">
-                <h2>contact us</h2>
-                <p>membership</p>
-                <p>plans</p>
-                <p>diaomond</p>
-                <p>join now</p>
-                
-            </div>
-        </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script type="text/javascript">
+        const menuBtn = document.getElementById("menu-btn");
+       const navLinks = document.getElementById("nav-links");
+       const menuBtnIcon = menuBtn.querySelector("i");
+   
+       menuBtn.addEventListener("click", (e) => {
+       navLinks.classList.toggle("open");
+   
+       const isOpen = navLinks.classList.contains("open");
+       menuBtnIcon.setAttribute("class", isOpen ? "ri-close-line" : "ri-menu-line");
+       });
+   
+       navLinks.addEventListener("click", (e) => {
+       navLinks.classList.remove("open");
+       menuBtnIcon.setAttribute("class", "ri-menu-line");
+     });
+     </script>
     
 </body>
 </html>
